@@ -14,6 +14,14 @@ kochen-specker.info (signed by Bas Westerbaan)
 
 mldsa.huque.com (signed by Shumon Huque)
 
+# Libraries
+
+https://codeberg.org/miekg/dns supports ML-DSA-44 since 0.6.98.
+
+# Testing software
+
+https://codeberg.org/pawal/gonemaster supports ML-DSA-44 since 1.7.1.
+
 # Future
 
 Peter van Dijk says "MLDSA44 will be in PowerDNS Recursor 5.5 and Auth 5.2."
