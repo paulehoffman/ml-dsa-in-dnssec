@@ -20,7 +20,9 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 # Test zones
 
-- mldsa.huque.com (signed by Shumon Huque)
+- mldsa.huque.com (signed by Shumon Huque, alg 18, compact denial of existence)
+
+- mldsan3.huque.com (signed by Shumon Huque, alg 18, pre-computed NSEC3)
 
 - [dnstest.dev](https://dnstest.dev) by Cloudflare includes among others
 
@@ -35,6 +37,8 @@ https://codeberg.org/miekg/dns supports ML-DSA-44 since 0.6.98.
 
 # Testing software
 
-https://codeberg.org/pawal/gonemaster supports ML-DSA-44 since 1.7.1.
+- https://codeberg.org/pawal/gonemaster supports ML-DSA-44 since 1.7.1.
+
+- https://github.com/shuque/adns_server An authoritative DNS server for testing and prototyping
 
 # Future
