@@ -14,6 +14,8 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 - [dnspython](https://github.com/rthalley/dnspython) (on master)
 
+- [Hark](https://github.com/jackboykin/hark) (on master)
+
 # Signers
 
 - [dnspython](https://github.com/rthalley/dnspython) (on master)
