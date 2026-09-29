@@ -6,6 +6,8 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 - [PowerDNS Auth](https://www.powerdns.com/). Supported on [master](https://github.com/PowerDNS/pdns/pull/17773), expected to be released for 5.2.0
 
+- [Loop](https://akira.org/loop/): Supported in versions 1.99.22 and above (there were no algorithm related changes necessary for authoritiative service, but some buffer sizes had to be updated in DNS UPDATE and inline signing codepaths).
+
 # Validating Resolvers
 
 - [Cloudflare 1.1.1.1](https://blog.cloudflare.com/post-quantum-dnssec-1111/)
@@ -16,9 +18,13 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 - [Hark](https://github.com/jackboykin/hark) (on master)
 
+- [Loop](https://akira.org/loop/): Supported in versions 1.99.22 and above. PQ downgrade protection is enabled by default and can be configured using the `dnssec-pq-lenient-validation` view-level config option.
+
 # Signers
 
 - [dnspython](https://github.com/rthalley/dnspython) (on master)
+
+- [Loop](https://akira.org/loop/): Supported in versions 1.99.22 and above. Implements hedged ML-DSA-44 signing currently. Support is also implemented for MLDSA44 in encrypted DNSKEY private-key files and PKCS#11 HSMs. [Article on simple manual signing](https://akira.org/blog/eeecfa96-bba4-11f1-9653-d83adda33030/).
 
 # Test zones
 
@@ -32,6 +38,7 @@ Pull requests are welcome. This repo will probably become useless around March 2
   - `dual-valid.mldsa44.dnstest.dev` signed by 13 and 18
   - `downgrade.mldsa44.dnstest.dev` is like dual, but alg 18 RRsigs are stripped to test downgrade protection of validator
 
+- `mldsa44.frankenmodel.com` signed using Loop, alg 18, following the [article on simple manual signing](https://akira.org/blog/eeecfa96-bba4-11f1-9653-d83adda33030/)
 
 # Libraries
 
