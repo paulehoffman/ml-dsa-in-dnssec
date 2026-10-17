@@ -14,7 +14,7 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 - [PowerDNS Rec](https://www.powerdns.com/). Supported on [master](https://github.com/PowerDNS/pdns/pull/17773), expected to be released for 5.5.0
 
-- [dnspython](https://github.com/rthalley/dnspython) (on master)
+- [dnspython](https://www.dnspython.org/) (starting in 2.9)
 
 - [Hark](https://github.com/jackboykin/hark) (on master)
 
@@ -22,7 +22,7 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 # Signers
 
-- [dnspython](https://github.com/rthalley/dnspython) (on master)
+- [dnspython](https://www.dnspython.org/) (starting in 2.9)
 
 - [Loop](https://akira.org/loop/): Supported in versions 1.99.22 and above. Implements hedged ML-DSA-44 signing currently. Support is also implemented for MLDSA44 in encrypted DNSKEY private-key files and PKCS#11 HSMs. [Article on simple manual signing](https://akira.org/blog/eeecfa96-bba4-11f1-9653-d83adda33030/).
 
@@ -42,12 +42,12 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 # Libraries
 
-https://codeberg.org/miekg/dns supports ML-DSA-44 since 0.6.98.
+<https://codeberg.org/miekg/dns> supports ML-DSA-44 since 0.6.98.
 
 # Testing software
 
-- https://codeberg.org/pawal/gonemaster supports ML-DSA-44 since 1.7.1.
+- <https://codeberg.org/pawal/gonemaster> supports ML-DSA-44 since 1.7.1.
 
-- https://github.com/shuque/adns_server An authoritative DNS server for testing and prototyping
+- <https://github.com/shuque/adns_server> An authoritative DNS server for testing and prototyping
 
 # Future
