@@ -26,6 +26,8 @@ Pull requests are welcome. This repo will probably become useless around March 2
 
 - [Loop](https://akira.org/loop/): Supported in versions 1.99.22 and above. Implements hedged ML-DSA-44 signing currently. Support is also implemented for MLDSA44 in encrypted DNSKEY private-key files and PKCS#11 HSMs. [Article on simple manual signing](https://akira.org/blog/eeecfa96-bba4-11f1-9653-d83adda33030/).
 
+- [jdnssec-tools](https://github.com/dblacka/jdnssec-tools) (starting in 0.22.1) 
+
 # Test zones
 
 - mldsa.huque.com (signed by Shumon Huque, alg 18, compact denial of existence)
